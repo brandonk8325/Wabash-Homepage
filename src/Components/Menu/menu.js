@@ -123,7 +123,7 @@ const Menu = (props) => {
                     </div>
               </animated.div>
             )
-        )}
+        )} 
     </>
   );
 };
