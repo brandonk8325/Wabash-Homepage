@@ -5,7 +5,7 @@ const HeaderBar = () => {
     return (
         <>
             <Header>
-                    <div style={{ display: "flex", alignItems: "center", justifyContent: "center", minHeight: "10vh", width: "100%"}}>
+                    <div style={{ display: "flex", alignItems: "center", justifyContent: "center", minHeight: "10vh"}}>
                         <HeaderLink to="/" activeStyle>
                                 WABASH WEBSITES
                         </HeaderLink>
