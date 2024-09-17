@@ -67,7 +67,7 @@ const Menu = (props) => {
     leave: { opacity: 0, transform: "scale(0)" },
     config: config.stiff
   });
-
+let temp = false;
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
@@ -117,9 +117,9 @@ const Menu = (props) => {
                     textAlign: "left"
                   }}
                 >
-                      <NavLink to ="/about" onClick={() => !!matchPath(this.props.location.pathname, "/about") ? item = item : item = !item}>About</NavLink> 
-                      <NavLink to ="/pricing" onClick={() => !!matchPath(this.props.location.pathname, "/pricing") ? item = item : item = !item}>Pricing</NavLink>
-                      <NavLink to ="/faq" onClick={() => !!matchPath(this.props.location.pathname, "/faq") ? item = item : item = !item}>FAQ</NavLink>                  
+                      <NavLink to ="/about" onClick={() => !!matchPath(this.props.location.pathname, "/about") ? temp = item : item = !item}>About</NavLink> 
+                      <NavLink to ="/pricing" onClick={() => !!matchPath(this.props.location.pathname, "/pricing") ? temp = item : item = !item}>Pricing</NavLink>
+                      <NavLink to ="/faq" onClick={() => !!matchPath(this.props.location.pathname, "/faq") ? temp = item : item = !item}>FAQ</NavLink>                  
                     </div>
               </animated.div>
             )
