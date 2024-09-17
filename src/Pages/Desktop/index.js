@@ -19,10 +19,10 @@ const Index = () => {
                 <img src = {require("../../static/stephen-main.jpg")} alt = "Main" width = "700vw"/>
             </div>
             <div style={{ alignItems: "center", justifyContent: "center",width: "100%", backgroundColor: "#fff5e0", textAlign: "center", position: "relative", top: "-20px", paddingBottom: "5px"}}>
-                <h1>WABASH WEBSITES</h1>
+                <h1>STEPHEN COLBERT</h1>
             </div>
             <div style={{ alignItems: "center", justifyContent: "center",width: "100%", backgroundColor: "#fff5e0", textAlign: "center", position: "relative", top: "-43px"}}>
-                <h4>Wabash Websites develops and manages HIGH-QUALITY personalized websites for some of the LOWEST PRICES available.<br/>Starting your own website with Wabash Websites is lighting-fast and fantastically easy.<br/><br/>Fill out our Content Form! After you complete the Content Form, our Wabash Design and Development Team will immediately begin creating your website.<br/>Wabash Websites specialized in websites for actors, musicians, bands, artists, filmmakers, music producers, singers, dancers, photographers, producers, podcasters, writers, performers, and more
+                <h4>Actor and Entertainer
 </h4>
             </div>
             <div style={{ alignItems: "center", justifyContent: "center",width: "100%", backgroundColor: "#fff5e0", textAlign: "center", position: "relative", top: "-50px", display: "flex"}}>

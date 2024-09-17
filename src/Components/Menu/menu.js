@@ -53,7 +53,7 @@ const Menu = (props) => {
     leave: { opacity: 0, transform: "scale(0.80)" },
     config: config.gentle
   });
-
+  let test = false;
   const openButton = useTransition(isOpen, {
     from: {
       opacity: 0,
