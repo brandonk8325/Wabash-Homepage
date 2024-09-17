@@ -53,7 +53,7 @@ const Menu = (props) => {
     leave: { opacity: 0, transform: "scale(0.80)" },
     config: config.gentle
   });
-  let test = false;
+
   const openButton = useTransition(isOpen, {
     from: {
       opacity: 0,
@@ -67,11 +67,11 @@ const Menu = (props) => {
     leave: { opacity: 0, transform: "scale(0)" },
     config: config.stiff
   });
-let temp = false;
+
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
-
+  let test = false;
   return (
     <>
       <div style={{ position: "relative", zIndex: 20, margin: "0", padding: "0" }}>
@@ -117,9 +117,9 @@ let temp = false;
                     textAlign: "left"
                   }}
                 >
-                      <NavLink to ="/about" onClick={() => !!matchPath(this.props.location.pathname, "/about") ? temp = item : item = !item}>About</NavLink> 
-                      <NavLink to ="/pricing" onClick={() => !!matchPath(this.props.location.pathname, "/pricing") ? temp = item : item = !item}>Pricing</NavLink>
-                      <NavLink to ="/faq" onClick={() => !!matchPath(this.props.location.pathname, "/faq") ? temp = item : item = !item}>FAQ</NavLink>                  
+                      <NavLink to ="/about" onClick={() => !!matchPath(this.props.location.pathname, "/about") ? test = item : item = !item}>About</NavLink> 
+                      <NavLink to ="/pricing" onClick={() => !!matchPath(this.props.location.pathname, "/pricing") ? test = item : item = !item}>Pricing</NavLink>
+                      <NavLink to ="/faq" onClick={() => !!matchPath(this.props.location.pathname, "/faq") ? test = item : item = !item}>FAQ</NavLink>                  
                     </div>
               </animated.div>
             )
